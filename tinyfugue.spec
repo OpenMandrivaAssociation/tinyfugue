@@ -1,6 +1,6 @@
 %define name tinyfugue
 %define version 5.0
-%define pre b7
+%define pre b8
 %define fver 50%pre
 %define fname tf-%fver
 %define rel 0.%pre.1
