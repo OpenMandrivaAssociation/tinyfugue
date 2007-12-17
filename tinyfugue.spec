@@ -13,7 +13,6 @@ URL: http://tf.tcp.com/~hawkeye/tf/
 Source0: http://ftp.tcp.com/pub/mud/Clients/tinyfugue/%{fname}.tar.bz2
 License: GPL
 Group: Games/Adventure
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: openssl-devel
 BuildRequires: termcap-devel
 
