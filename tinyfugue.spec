@@ -3,15 +3,15 @@
 %define pre b8
 %define fver 50%pre
 %define fname tf-%fver
-%define rel 0.%pre.1
+%define rel 0.%pre.2
 
 Summary: Flexible, screen-oriented MUD client, for use with any type of MUD
 Name: %{name}
 Version: %{version}
 Release: %mkrel %rel
-URL: http://tf.tcp.com/~hawkeye/tf/
+URL: http://tinyfugue.sourceforge.net/
 Source0: http://ftp.tcp.com/pub/mud/Clients/tinyfugue/%{fname}.tar.bz2
-License: GPL
+License: GPLv2+
 Group: Games/Adventure
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: openssl-devel
@@ -26,7 +26,7 @@ powerful mud clients.
 %setup -q -n %fname
 
 %build
-%configure
+%configure2_5x
 %make
 
 %install
