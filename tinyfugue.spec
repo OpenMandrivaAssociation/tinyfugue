@@ -3,7 +3,7 @@
 %define pre b8
 %define fver 50%pre
 %define fname tf-%fver
-%define rel 0.%pre.3
+%define rel 0.%pre.4
 
 Summary: Flexible, screen-oriented MUD client, for use with any type of MUD
 Name: %{name}
