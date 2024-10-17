@@ -9,7 +9,7 @@ Summary: Flexible, screen-oriented MUD client, for use with any type of MUD
 Name: %{name}
 Version: %{version}
 Release: %mkrel %rel
-URL: http://tinyfugue.sourceforge.net/
+URL: https://tinyfugue.sourceforge.net/
 Source0: http://ftp.tcp.com/pub/mud/Clients/tinyfugue/%{fname}.tar.bz2
 License: GPLv2+
 Group: Games/Adventure
